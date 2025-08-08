@@ -7,14 +7,14 @@ CREATE TABLE clientes
 (
 	id_cliente INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100),
-    telefono VARCHAR(100)
+    telefono VARCHAR(20)
 );
 
 CREATE TABLE proveedores
 (
 	id_proveedor INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100),
-    telefono VARCHAR(100)
+    telefono VARCHAR(20)
 );
 
 CREATE TABLE marcas
